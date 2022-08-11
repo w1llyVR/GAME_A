@@ -118,18 +118,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Balas_Enemigo1.cpp" />
+    <ClCompile Include="Bala_Disparar.cpp" />
+    <ClCompile Include="Bala_Pers1.cpp" />
     <ClCompile Include="Controller.cpp" />
+    <ClCompile Include="Enemigo1.cpp" />
     <ClCompile Include="MyForm.cpp" />
     <ClCompile Include="Personaje.cpp" />
     <ClCompile Include="Personaje1.cpp" />
+    <ClCompile Include="Personaje2.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Balas_Enemigo1.h" />
+    <ClInclude Include="Bala_Disparar.h" />
+    <ClInclude Include="Bala_Pers1.h" />
     <ClInclude Include="Controller.h" />
+    <ClInclude Include="Enemigo1.h" />
     <ClInclude Include="MyForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Personaje.h" />
     <ClInclude Include="Personaje1.h" />
+    <ClInclude Include="Personaje2.h" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="MyForm.resx">

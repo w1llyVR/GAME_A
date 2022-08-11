@@ -28,6 +28,16 @@ void Personaje::set_h(int h)
 	this->h = h;
 }
 
+void Personaje::set_dx(int dx)
+{
+	this->dx = dx;
+}
+
+void Personaje::set_dy(int dy)
+{
+	this->dy = dy;
+}
+
 int Personaje::get_x()
 {
 	return this->x;
@@ -46,6 +56,16 @@ int Personaje::get_w()
 int Personaje::get_h()
 {
 	return this->h;
+}
+
+int Personaje::get_dx()
+{
+	return this->dx;
+}
+
+int Personaje::get_dy()
+{
+	return this->dy;
 }
 
 void Personaje::mostrar(Bitmap^ img, Graphics^ g)
